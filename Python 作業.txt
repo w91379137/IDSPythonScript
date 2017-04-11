@@ -1,1 +1,7 @@
 jupyter notebook
+
+
+將 複數 色彩 轉到 各 色域
+https://en.wikipedia.org/wiki/Color_wheel_graphs_of_complex_functions
+https://zh.wikipedia.org/wiki/%E8%89%B2%E7%9B%B8%E7%92%B0%E8%A4%87%E8%AE%8A%E5%87%BD%E6%95%B8%E5%9C%96%E5%BD%A2
+https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4
