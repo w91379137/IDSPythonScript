@@ -1,25 +1,38 @@
-jupyter notebook
+###jupyter notebook
 
-
-將 複數 色彩 轉到 各 色域
+###將 複數 色彩 轉到 各 色域
 https://en.wikipedia.org/wiki/Color_wheel_graphs_of_complex_functions
 https://zh.wikipedia.org/wiki/%E8%89%B2%E7%9B%B8%E7%92%B0%E8%A4%87%E8%AE%8A%E5%87%BD%E6%95%B8%E5%9C%96%E5%BD%A2
 https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4
 
-全景圖片的產生
-
-全景影片的產生
-(或者 網頁 瀏覽)
-
+###全景圖片的產生(或者 網頁 瀏覽)
 https://github.com/Automatt/DroneStitch
 https://github.com/dbaldwin/DronePan
 https://www.youtube.com/watch?v=sZJImZhqcqE
 
-panoramas 全景相片
-
+###panoramas 全景相片
 http://www.dermandar.com/
 http://wiki.panotools.org/Panorama_formats
+https://www.youtube.com/watch?v=jS1MUPh1XHU
+https://www.youtube.com/watch?v=Iw9J5biI47I
 
-source build
+###source build
 
+
+###在網頁上瀏覽 ipynb檔案
 http://nbviewer.jupyter.org/github/w91379137/
+
+###opencv 範例
+http://monkeycoding.com/?page_id=12
+http://docs.opencv.org/3.1.0/pages.html
+
+
+###磨皮 opencv
+http://meituplus.com/?p=101
+http://blog.csdn.net/CSDN_SXL/article/details/50602560
+http://caohe.me/2016/06/10/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%87%AA%E5%8A%A8%E7%A3%A8%E7%9A%AE/
+
+
+###Dlib
+https://read01.com/jyeQm.html
+
