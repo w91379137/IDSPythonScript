@@ -21,3 +21,5 @@ http://www.dermandar.com/
 http://wiki.panotools.org/Panorama_formats
 
 source build
+
+http://nbviewer.jupyter.org/github/w91379137/
