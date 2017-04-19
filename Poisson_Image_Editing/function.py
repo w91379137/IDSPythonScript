@@ -4,11 +4,11 @@ import cv2
 import numpy as np
 
 kernel = np.zeros((3,3), np.float32)
-kernel[1,0] = 1
-kernel[1,2] = 1
-kernel[1,1] = -4
-kernel[0,1] = 1
-kernel[2,1] = 1
+kernel[1,0] = -1
+kernel[1,2] = -1
+kernel[1,1] = 4
+kernel[0,1] = -1
+kernel[2,1] = -1
 
 def divergence(img):
     img = img.astype(np.float32)
@@ -33,11 +33,11 @@ def solve_image_1(img_target, img_div):
             else:
                 #中間
                 y[idx_row] = img_div[idx_w, idx_h]
-                row[idx_row - w] = 1
-                row[idx_row - 1] = 1
-                row[idx_row] = -4
-                row[idx_row + 1] = 1
-                row[idx_row + w] = 1
+                row[idx_row - w] = -1
+                row[idx_row - 1] = -1
+                row[idx_row] = 4
+                row[idx_row + 1] = -1
+                row[idx_row + w] = -1
                 
             A[idx_row, :] = row
         
@@ -91,11 +91,11 @@ def solve_image_2(img_target, img_div, img_mask):
             else:
                 #中間
                 y[idx_row] = img_div[idx_w, idx_h]
-                row[idx_row - w] = 1
-                row[idx_row - 1] = 1
-                row[idx_row] = -4
-                row[idx_row + 1] = 1
-                row[idx_row + w] = 1
+                row[idx_row - w] = -1
+                row[idx_row - 1] = -1
+                row[idx_row] = 4
+                row[idx_row + 1] = -1
+                row[idx_row + w] = -1
                 
             A[idx_row, :] = row
         
