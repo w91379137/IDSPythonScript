@@ -100,7 +100,9 @@ def solve_image_2(img_target, img_div, img_mask):
             A[idx_row, :] = row
         
     #求x
+    #_, x = cv2.solve(A, y)
     x = np.linalg.solve(A, y)
+    
     ans = img_target.copy()
     for idx_h in range(h):
         for idx_w in range(w):
